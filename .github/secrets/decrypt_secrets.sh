@@ -3,7 +3,7 @@ set -eo pipefail
 
 mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles
 
-cp ./.github/secrets/SpinCasinoProvProfile.mobileprovision ~/Library/MobileDevice/Provisioning\ Profiles/SpinCasinoProvProfile.mobileprovision
+cp ./.github/secrets/SpinCasinoProfile.mobileprovision ~/Library/MobileDevice/Provisioning\ Profiles/SpinCasinoProfile.mobileprovision
 
 
 security create-keychain -p "" build.keychain
