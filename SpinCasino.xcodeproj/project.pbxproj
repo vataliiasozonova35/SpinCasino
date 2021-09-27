@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E44818426DEC92600134F93 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E44818326DEC92600134F93 /* StoreKit.framework */; };
+		7E8189082701F3E200F97ED3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E8189072701F3E200F97ED3 /* GoogleService-Info.plist */; };
+		7E985DA226DFAACF00FB19F6 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E985DA126DFAACF00FB19F6 /* BaseVC.swift */; };
+		7E985DA426DFF82F00FB19F6 /* AVPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E985DA326DFF82F00FB19F6 /* AVPlayerManager.swift */; };
+		7E985DA826DFFF9E00FB19F6 /* JWL_AmbiGeneral.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E985DA726DFFF9E00FB19F6 /* JWL_AmbiGeneral.wav */; };
+		7E985DAA26E00C4700FB19F6 /* JWL_WinLarge.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E985DA926E00C4700FB19F6 /* JWL_WinLarge.wav */; };
+		7E985DAC26E0135900FB19F6 /* crow-cawing-sound-effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E985DAB26E0135900FB19F6 /* crow-cawing-sound-effect.mp3 */; };
+		7EA010A626D36F4800849467 /* IAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA010A526D36F4800849467 /* IAPManager.swift */; };
+		7EA010C026D3C96A00849467 /* WinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA010BF26D3C96A00849467 /* WinViewController.swift */; };
+		7EA010CA26D4FDE700849467 /* SegmentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA010C926D4FDE700849467 /* SegmentManager.swift */; };
+		7EA010DE26D4FEBA00849467 /* Checker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA010DD26D4FEBA00849467 /* Checker.swift */; };
+		7EA010E126D4FEE600849467 /* Consts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA010E026D4FEE600849467 /* Consts.swift */; };
+		7EA010E426D4FEF600849467 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA010E326D4FEF600849467 /* HelpViewController.swift */; };
+		7EA010E726D4FF0B00849467 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA010E626D4FF0B00849467 /* UserDefaultsManager.swift */; };
+		7EA010EA26D4FF3C00849467 /* EventsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA010E926D4FF3C00849467 /* EventsManager.swift */; };
+		7EA0340C26CA6B1500665056 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA0340B26CA6B1500665056 /* AppDelegate.swift */; };
+		7EA0341026CA6B1500665056 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA0340F26CA6B1500665056 /* MainViewController.swift */; };
+		7EA0341326CA6B1500665056 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EA0341126CA6B1500665056 /* Main.storyboard */; };
+		7EA0341526CA6B1700665056 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EA0341426CA6B1700665056 /* Assets.xcassets */; };
+		7EA0341826CA6B1700665056 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EA0341626CA6B1700665056 /* LaunchScreen.storyboard */; };
+		7EA0342326CA73B000665056 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA0342226CA73B000665056 /* ImageCollectionViewCell.swift */; };
+		7EA0342926CA869A00665056 /* SlotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA0342826CA869A00665056 /* SlotViewController.swift */; };
+		7EA0344F26CD306500665056 /* PlainHorizontalProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA0344E26CD306500665056 /* PlainHorizontalProgressBar.swift */; };
+		7EA0345826CE35E500665056 /* InitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA0345726CE35E500665056 /* InitViewController.swift */; };
+		7EA0345C26CE419B00665056 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA0345B26CE419B00665056 /* PopUpViewController.swift */; };
+		7EA0346C26CE699500665056 /* PlainVerticalProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA0346B26CE699500665056 /* PlainVerticalProgressBar.swift */; };
+		7EA0347226CE789B00665056 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA0347126CE789B00665056 /* Level.swift */; };
+		7EA095DC26CFE1380053B791 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA095DB26CFE1380053B791 /* StoreViewController.swift */; };
+		9F44DFCE13271DE7C2299FF9 /* libPods-SpinCasino.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D896C174818FB0DBA3F32B2E /* libPods-SpinCasino.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7DA979311C845F8A9EED3E09 /* Pods-SpinCasino.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpinCasino.debug.xcconfig"; path = "Target Support Files/Pods-SpinCasino/Pods-SpinCasino.debug.xcconfig"; sourceTree = "<group>"; };
+		7E44818326DEC92600134F93 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		7E44818526DEC92A00134F93 /* SpinCasino.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpinCasino.entitlements; sourceTree = "<group>"; };
+		7E8189072701F3E200F97ED3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7E985DA126DFAACF00FB19F6 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		7E985DA326DFF82F00FB19F6 /* AVPlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerManager.swift; sourceTree = "<group>"; };
+		7E985DA726DFFF9E00FB19F6 /* JWL_AmbiGeneral.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = JWL_AmbiGeneral.wav; sourceTree = "<group>"; };
+		7E985DA926E00C4700FB19F6 /* JWL_WinLarge.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = JWL_WinLarge.wav; sourceTree = "<group>"; };
+		7E985DAB26E0135900FB19F6 /* crow-cawing-sound-effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "crow-cawing-sound-effect.mp3"; sourceTree = "<group>"; };
+		7EA010A526D36F4800849467 /* IAPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPManager.swift; sourceTree = "<group>"; };
+		7EA010BF26D3C96A00849467 /* WinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinViewController.swift; sourceTree = "<group>"; };
+		7EA010C926D4FDE700849467 /* SegmentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentManager.swift; sourceTree = "<group>"; };
+		7EA010DD26D4FEBA00849467 /* Checker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checker.swift; sourceTree = "<group>"; };
+		7EA010E026D4FEE600849467 /* Consts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consts.swift; sourceTree = "<group>"; };
+		7EA010E326D4FEF600849467 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		7EA010E626D4FF0B00849467 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		7EA010E926D4FF3C00849467 /* EventsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsManager.swift; sourceTree = "<group>"; };
+		7EA0340826CA6B1500665056 /* SpinCasino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpinCasino.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EA0340B26CA6B1500665056 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7EA0340F26CA6B1500665056 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7EA0341226CA6B1500665056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EA0341426CA6B1700665056 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EA0341726CA6B1700665056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7EA0341926CA6B1700665056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EA0342226CA73B000665056 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		7EA0342826CA869A00665056 /* SlotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotViewController.swift; sourceTree = "<group>"; };
+		7EA0344E26CD306500665056 /* PlainHorizontalProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainHorizontalProgressBar.swift; sourceTree = "<group>"; };
+		7EA0345726CE35E500665056 /* InitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitViewController.swift; sourceTree = "<group>"; };
+		7EA0345B26CE419B00665056 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		7EA0346B26CE699500665056 /* PlainVerticalProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainVerticalProgressBar.swift; sourceTree = "<group>"; };
+		7EA0347126CE789B00665056 /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		7EA095DB26CFE1380053B791 /* StoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+		7F7EF6DF26E8E4C8764C6C56 /* Pods-SpinCasino.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpinCasino.release.xcconfig"; path = "Target Support Files/Pods-SpinCasino/Pods-SpinCasino.release.xcconfig"; sourceTree = "<group>"; };
+		D896C174818FB0DBA3F32B2E /* libPods-SpinCasino.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SpinCasino.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EA0340526CA6B1500665056 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E44818426DEC92600134F93 /* StoreKit.framework in Frameworks */,
+				9F44DFCE13271DE7C2299FF9 /* libPods-SpinCasino.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EA010AB26D3A79A00849467 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E44818326DEC92600134F93 /* StoreKit.framework */,
+				D896C174818FB0DBA3F32B2E /* libPods-SpinCasino.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7EA010C826D4FD5300849467 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7EA0340B26CA6B1500665056 /* AppDelegate.swift */,
+				7EA010C926D4FDE700849467 /* SegmentManager.swift */,
+				7EA010DD26D4FEBA00849467 /* Checker.swift */,
+				7EA010E026D4FEE600849467 /* Consts.swift */,
+				7EA010E326D4FEF600849467 /* HelpViewController.swift */,
+				7EA010E626D4FF0B00849467 /* UserDefaultsManager.swift */,
+				7EA010E926D4FF3C00849467 /* EventsManager.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7EA033FF26CA6B1500665056 = {
+			isa = PBXGroup;
+			children = (
+				7EA0340A26CA6B1500665056 /* SpinCasino */,
+				7EA0340926CA6B1500665056 /* Products */,
+				7EA010AB26D3A79A00849467 /* Frameworks */,
+				AF01EBCAF0B7B8E0BDDA38BF /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		7EA0340926CA6B1500665056 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EA0340826CA6B1500665056 /* SpinCasino.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EA0340A26CA6B1500665056 /* SpinCasino */ = {
+			isa = PBXGroup;
+			children = (
+				7E44818526DEC92A00134F93 /* SpinCasino.entitlements */,
+				7EA010C826D4FD5300849467 /* Main */,
+				7EA0346026CE528F00665056 /* Game */,
+				7EA0345326CD4A4C00665056 /* Extensions */,
+				7EA0341126CA6B1500665056 /* Main.storyboard */,
+				7EA0341426CA6B1700665056 /* Assets.xcassets */,
+				7EA0341626CA6B1700665056 /* LaunchScreen.storyboard */,
+				7EA0341926CA6B1700665056 /* Info.plist */,
+				7E8189072701F3E200F97ED3 /* GoogleService-Info.plist */,
+				7E985DA126DFAACF00FB19F6 /* BaseVC.swift */,
+			);
+			path = SpinCasino;
+			sourceTree = "<group>";
+		};
+		7EA0345326CD4A4C00665056 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7EA0344E26CD306500665056 /* PlainHorizontalProgressBar.swift */,
+				7EA0342226CA73B000665056 /* ImageCollectionViewCell.swift */,
+				7EA0346B26CE699500665056 /* PlainVerticalProgressBar.swift */,
+				7EA010A526D36F4800849467 /* IAPManager.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7EA0346026CE528F00665056 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				7EA0345726CE35E500665056 /* InitViewController.swift */,
+				7EA0340F26CA6B1500665056 /* MainViewController.swift */,
+				7EA0342826CA869A00665056 /* SlotViewController.swift */,
+				7EA0345B26CE419B00665056 /* PopUpViewController.swift */,
+				7EA0347126CE789B00665056 /* Level.swift */,
+				7EA095DB26CFE1380053B791 /* StoreViewController.swift */,
+				7E985DA726DFFF9E00FB19F6 /* JWL_AmbiGeneral.wav */,
+				7E985DAB26E0135900FB19F6 /* crow-cawing-sound-effect.mp3 */,
+				7E985DA926E00C4700FB19F6 /* JWL_WinLarge.wav */,
+				7EA010BF26D3C96A00849467 /* WinViewController.swift */,
+				7E985DA326DFF82F00FB19F6 /* AVPlayerManager.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		AF01EBCAF0B7B8E0BDDA38BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DA979311C845F8A9EED3E09 /* Pods-SpinCasino.debug.xcconfig */,
+				7F7EF6DF26E8E4C8764C6C56 /* Pods-SpinCasino.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EA0340726CA6B1500665056 /* SpinCasino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EA0341C26CA6B1700665056 /* Build configuration list for PBXNativeTarget "SpinCasino" */;
+			buildPhases = (
+				144DA5FD2EF498063BECCD89 /* [CP] Check Pods Manifest.lock */,
+				7EA0340426CA6B1500665056 /* Sources */,
+				7EA0340526CA6B1500665056 /* Frameworks */,
+				7EA0340626CA6B1500665056 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpinCasino;
+			productName = SlotDemo;
+			productReference = 7EA0340826CA6B1500665056 /* SpinCasino.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EA0340026CA6B1500665056 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					7EA0340726CA6B1500665056 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 7EA0340326CA6B1500665056 /* Build configuration list for PBXProject "SpinCasino" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EA033FF26CA6B1500665056;
+			productRefGroup = 7EA0340926CA6B1500665056 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EA0340726CA6B1500665056 /* SpinCasino */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EA0340626CA6B1500665056 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EA0341826CA6B1700665056 /* LaunchScreen.storyboard in Resources */,
+				7E985DAA26E00C4700FB19F6 /* JWL_WinLarge.wav in Resources */,
+				7E985DA826DFFF9E00FB19F6 /* JWL_AmbiGeneral.wav in Resources */,
+				7E985DAC26E0135900FB19F6 /* crow-cawing-sound-effect.mp3 in Resources */,
+				7EA0341526CA6B1700665056 /* Assets.xcassets in Resources */,
+				7EA0341326CA6B1500665056 /* Main.storyboard in Resources */,
+				7E8189082701F3E200F97ED3 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		144DA5FD2EF498063BECCD89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpinCasino-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EA0340426CA6B1500665056 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EA095DC26CFE1380053B791 /* StoreViewController.swift in Sources */,
+				7EA010E126D4FEE600849467 /* Consts.swift in Sources */,
+				7EA010E726D4FF0B00849467 /* UserDefaultsManager.swift in Sources */,
+				7EA0342926CA869A00665056 /* SlotViewController.swift in Sources */,
+				7E985DA226DFAACF00FB19F6 /* BaseVC.swift in Sources */,
+				7EA010A626D36F4800849467 /* IAPManager.swift in Sources */,
+				7EA010C026D3C96A00849467 /* WinViewController.swift in Sources */,
+				7E985DA426DFF82F00FB19F6 /* AVPlayerManager.swift in Sources */,
+				7EA010CA26D4FDE700849467 /* SegmentManager.swift in Sources */,
+				7EA010DE26D4FEBA00849467 /* Checker.swift in Sources */,
+				7EA0341026CA6B1500665056 /* MainViewController.swift in Sources */,
+				7EA0346C26CE699500665056 /* PlainVerticalProgressBar.swift in Sources */,
+				7EA0347226CE789B00665056 /* Level.swift in Sources */,
+				7EA0345C26CE419B00665056 /* PopUpViewController.swift in Sources */,
+				7EA010EA26D4FF3C00849467 /* EventsManager.swift in Sources */,
+				7EA010E426D4FEF600849467 /* HelpViewController.swift in Sources */,
+				7EA0345826CE35E500665056 /* InitViewController.swift in Sources */,
+				7EA0344F26CD306500665056 /* PlainHorizontalProgressBar.swift in Sources */,
+				7EA0340C26CA6B1500665056 /* AppDelegate.swift in Sources */,
+				7EA0342326CA73B000665056 /* ImageCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7EA0341126CA6B1500665056 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EA0341226CA6B1500665056 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EA0341626CA6B1700665056 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EA0341726CA6B1700665056 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EA0341A26CA6B1700665056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Distribution";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7EA0341B26CA6B1700665056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Distribution";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EA0341D26CA6B1700665056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DA979311C845F8A9EED3E09 /* Pods-SpinCasino.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SpinCasino/SpinCasino.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: END OF LTD (FZZ9Y9X3G2)";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FZZ9Y9X3G2;
+				INFOPLIST_FILE = SpinCasino/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.endoffapp.spincasino;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = SpinCasinoProfile;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7EA0341E26CA6B1700665056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F7EF6DF26E8E4C8764C6C56 /* Pods-SpinCasino.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SpinCasino/SpinCasino.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: END OF LTD (FZZ9Y9X3G2)";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FZZ9Y9X3G2;
+				INFOPLIST_FILE = SpinCasino/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.endoffapp.spincasino;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = SpinCasinoProfile;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EA0340326CA6B1500665056 /* Build configuration list for PBXProject "SpinCasino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EA0341A26CA6B1700665056 /* Debug */,
+				7EA0341B26CA6B1700665056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EA0341C26CA6B1700665056 /* Build configuration list for PBXNativeTarget "SpinCasino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EA0341D26CA6B1700665056 /* Debug */,
+				7EA0341E26CA6B1700665056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EA0340026CA6B1500665056 /* Project object */;
+}
